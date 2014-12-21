@@ -37,7 +37,7 @@ def get_image(events):
     draw.text((320, y), event.name.replace('Computer Science Examination', 'Exam'), font=fnt, fill=255) # name
     y += 40
     if event.location:
-      draw.text((320, y), event.location, font=fnt, fill=100) # location
+      draw.text((320, y), event.location, font=fnt, fill=150) # location
       y += 40 
     y += 15
 
